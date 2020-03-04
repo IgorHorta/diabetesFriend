@@ -10,7 +10,7 @@ const Login = () => (
     style={styles.linearGradient}>
     <View style={styles.centerView}>
       <Item style={styles.inputItem} floatingLabel>
-        <Label>Login</Label>
+        <Label>Email</Label>
         <Input />
       </Item>
       <Item style={styles.inputItem} floatingLabel>
@@ -18,7 +18,7 @@ const Login = () => (
         <Input />
       </Item>
     </View>
-    <Button style={styles.inputItem} rounded>
+    <Button style={styles.buttonContent} rounded>
       <Text>Login</Text>
     </Button>
   </LinearGradient>

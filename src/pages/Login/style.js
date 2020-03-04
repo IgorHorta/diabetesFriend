@@ -15,6 +15,12 @@ const styles = StyleSheet.create({
   inputItem: {
     marginTop: 10,
   },
+  buttonContent: {
+    marginTop: 10,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
 });
 
 export default styles;
